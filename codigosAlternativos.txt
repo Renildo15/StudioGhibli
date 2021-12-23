@@ -1,0 +1,19 @@
+async function exibir (event){
+    event.preventDefault();
+    let url = "https://ghibliapi.herokuapp.com/films";
+    let res = await fetch(url);
+    let objetos = await res.json();
+    let titulos = tittle(objetos.title);
+    
+    console.log(objetos);
+    document.getElementById("conteudo").innerHTML = titulos;
+}
+
+
+function tittle(titulo){
+    return titulo.map(f => `
+    <div>
+        <h2>${f.title}</h2>
+    </div>
+    `).json('');
+}

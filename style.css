@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+#container{
+    max-width: 2000px ;
+    min-width: 750px;
+    margin: 0 auto;
+    background: rgb(247, 247, 247);
+}
+
+#conteudos{
+    margin: 0 auto;
+
+    width: 900px;
+}
+
+.titles h2{
+    border-bottom: 2px dotted black;
+    margin-bottom: 8px;
+    padding: 9px;
+}
+
+.titles h3{
+   margin-bottom: 8px;
+   padding: 9px; 
+}
+
+header{
+    background-image: url(imagens/Topo.jpg);
+    margin: 0 auto;
+    width: 900px;
+    height: 150px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+header h1{
+   /* background-image: url(https://www.clipartmax.com/png/middle/136-1362444_report-abuse-studio-ghibli-logo-gif.png);*/
+   color: white;
+}
+header nav ul li a{
+    color: white;
+}
+
+.conteudo{
+    background: white;
+    margin-bottom: 20px;
+    width: 900px;
+    padding: 15px;
+}
