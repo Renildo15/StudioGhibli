@@ -16,11 +16,11 @@ const listInfo = (animes) =>{
 
     div.classList.add("info");
 
-    director.innerHTML = "Director: " + animes.director;
-    producer.innerHTML = "Producer: " + animes.producer;
-    release_date.innerHTML = "Release date: " + animes.release_date;
-    running_time.innerHTML = "Running time: " + animes.running_time;
-    rt_score.innerHTML = "Score: " + animes.rt_score;
+    director.innerHTML = `<b>Director: </b>` + animes.director;
+    producer.innerHTML = `<b>Producer: </b>` + animes.producer;
+    release_date.innerHTML = `<b>Release date: </b>` + animes.release_date;
+    running_time.innerHTML = `<b>Running time: </b>` + animes.running_time;
+    rt_score.innerHTML = `<b>Score: </b>` + animes.rt_score;
 
     ul.appendChild(director);
     ul.appendChild(producer);
@@ -36,7 +36,7 @@ function sinopse (animes){
     let div = document.createElement("div");
     let sinopse = document.createElement("p");
     div.classList.add("sinopse");
-    sinopse.innerHTML = "Description: " + animes.description;
+    sinopse.innerHTML = `<b>Description: </b><br><br>` + animes.description;
     div.appendChild(sinopse);
     return div;
 }
@@ -45,7 +45,7 @@ function img (animes){
     let divImage = document.createElement("div");
     let imagem = document.createElement("img");
     divImage.classList.add("image");
-    imagem.setAttribute('width',"400px")
+    imagem.setAttribute('width',"600px")
     imagem.innerHTML = imagem.setAttribute('src',animes.movie_banner )
     divImage.appendChild(imagem);
     return divImage;

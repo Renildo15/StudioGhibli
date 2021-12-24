@@ -55,3 +55,27 @@ header nav ul li a{
     width: 900px;
     padding: 15px;
 }
+
+.image{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.sinopse{
+    margin: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.sinopse p{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.info ul{
+   margin: 20px; 
+   padding: 10px;
+}
+
