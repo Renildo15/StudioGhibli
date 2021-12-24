@@ -44,6 +44,11 @@ header{
 header h1{
    /* background-image: url(https://www.clipartmax.com/png/middle/136-1362444_report-abuse-studio-ghibli-logo-gif.png);*/
    color: white;
+   background: rgba(0, 0, 0, 0.479);
+   padding: 10px;
+   margin-bottom: 0px;
+   font-size: 2em;
+    /*background: rgba(255, 255, 255, 0.308) url(imagens/Logo-1.png) no-repeat;*/
 }
 header nav ul li a{
     color: black;
@@ -53,7 +58,7 @@ header nav ul li a{
 }
 
 nav ul{
-    margin: 20px;
+    margin: 10px;
     float: right;
 }
 
