@@ -79,3 +79,11 @@ header nav ul li a{
    padding: 10px;
 }
 
+footer{
+    background: rgb(12, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
